@@ -68,12 +68,18 @@ body {
     width: 50%;
     text-align: end;
 }
-/* @media (max-width: 360px){
+@media (max-width: 360px){
+    .card{
+        height: 400px;
+    }
+    .card__img{
+        height: 220px;
+    }
     .card__btns{
         flex-direction: column !important;
     }
     .card__title{
-        margin: 40px 0 20px 0;
+        margin: 30px 0 12px 0;
     }
     .card__play-btn{
         width: 100%;
@@ -84,4 +90,7 @@ body {
         width: 100%;
         text-align: center;
     }
-} */
+    .row{
+     --bs-gutter-x: 0;
+    }
+}
